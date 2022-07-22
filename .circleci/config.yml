@@ -46,8 +46,6 @@ jobs:
             cd frontend
             npm install
             npm run build
-          # environment:
-          #   API_URL: http://localhost:3000
       - save_cache:
           paths: [frontend/node_modules]
           key: frontend-build
